@@ -1,0 +1,1 @@
+﻿public sealed record TodoResponseDto(int Id, string Title, string? Description, bool IsCompleted, DateTime DateCreated, int? UserId);
