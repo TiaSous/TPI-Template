@@ -1,0 +1,13 @@
+/* color palette */
+:root {
+  --white: #f8f7f9;
+  --green-main: #5aaa95;
+  --green-dark: #86a873;
+  --blue-teal: #087f8c;
+  --blue-dark: #2b2d42;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--blue-dark);
+}
