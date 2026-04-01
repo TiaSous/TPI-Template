@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Todo } from '../models.ts/todo';
+import type { Todo } from '../models/todo';
 import TodoCardComponent from './TodoCardComponent.vue';
 
 defineProps<{

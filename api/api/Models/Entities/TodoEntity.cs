@@ -9,13 +9,13 @@ public class TodoEntity
     [MaxLength(100)]
     public required string Title { get; set; }
     [MaxLength(500)]
-    public string Description { get; set; }
+    public string? Description { get; set; }
     public bool IsCompleted { get; set; }
     public DateTime CreatedAt { get; set; }
 
     public int? UserId { get; set; }
 
     [ForeignKey(nameof(UserId))]
-    public UserEntity User { get; set; }
-    
+    public UserEntity? User { get; set; }
+
 }

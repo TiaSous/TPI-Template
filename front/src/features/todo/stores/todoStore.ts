@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import type { Todo } from '../models.ts/todo';
+import type { Todo } from '../models/todo';
 import { getAllTodos } from '../service/todoService';
 
 export const useTodoStore = defineStore('todo', {
